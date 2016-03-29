@@ -1,0 +1,12 @@
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\obj\Debug\testCF.exe
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\obj\Debug\testCF.pdb
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\testCF.exe.config
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\testCF.exe
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\testCF.pdb
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\EntityFramework.dll
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\EntityFramework.xml
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Baptiste\Documents\Cours\Algorithme\Projet\testCF\bin\Debug\fr\EntityFramework.SqlServer.resources.dll

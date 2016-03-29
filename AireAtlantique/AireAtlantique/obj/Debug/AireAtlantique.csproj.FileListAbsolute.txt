@@ -1,0 +1,64 @@
+E:\EPSI\Documents\Program\algomath\AireAtlantique\bin\Debug\AireAtlantique.exe.config
+E:\EPSI\Documents\Program\algomath\AireAtlantique\bin\Debug\AireAtlantique.exe
+E:\EPSI\Documents\Program\algomath\AireAtlantique\bin\Debug\AireAtlantique.pdb
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.csprojResolveAssemblyReference.cache
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\MainWindow.baml
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\MainWindow.g.cs
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\App.g.cs
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique_MarkupCompile.cache
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.g.resources
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.Properties.Resources.resources
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.csproj.GenerateResource.Cache
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.exe
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.pdb
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterFormation.baml
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterFormation.g.cs
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession.baml
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession.g.cs
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession2.baml
+E:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession2.g.cs
+F:\EPSI\Documents\Program\algomath\AireAtlantique\bin\Debug\AireAtlantique.exe.config
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.exe
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.pdb
+F:\EPSI\Documents\Program\algomath\AireAtlantique\bin\Debug\AireAtlantique.exe
+F:\EPSI\Documents\Program\algomath\AireAtlantique\bin\Debug\AireAtlantique.pdb
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.csprojResolveAssemblyReference.cache
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterFormation.baml
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession.baml
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession2.baml
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\MainWindow.baml
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterFormation.g.cs
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession.g.cs
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AjouterSession2.g.cs
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\MainWindow.g.cs
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\App.g.cs
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique_MarkupCompile.cache
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.g.resources
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.Properties.Resources.resources
+F:\EPSI\Documents\Program\algomath\AireAtlantique\obj\Debug\AireAtlantique.csproj.GenerateResource.Cache
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\AireAtlantique.exe.config
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique.exe
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique.pdb
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique.csprojResolveAssemblyReference.cache
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AjouterFormation.baml
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AjouterSession2.baml
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\MainWindow.baml
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AjouterFormation.g.cs
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AjouterSession2.g.cs
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\MainWindow.g.cs
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\App.g.cs
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique_MarkupCompile.cache
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique.g.resources
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique.Properties.Resources.resources
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique.csproj.GenerateResource.Cache
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\AireAtlantique.exe
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\AireAtlantique.pdb
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AireAtlantique_MarkupCompile.lref
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\MainPage.g.cs
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\MainPage.baml
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\EntityFramework.dll
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\EntityFramework.SqlServer.dll
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\EntityFramework.xml
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\bin\Debug\EntityFramework.SqlServer.xml
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AjouterEmployer.g.cs
+F:\EPSI\Documents\B2\Projet Dev\AireAtlantique\AireAtlantique\obj\Debug\AjouterEmployer.baml
