@@ -1,0 +1,39 @@
+﻿<Page x:Class="AireAtlantique.AjouterSession2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050"
+	Title="AjouterSession2">
+
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
+        <Button x:Name="bHome" Content="Home" HorizontalAlignment="Left" Margin="76,10,0,0" VerticalAlignment="Top" Width="74" Height="35" Background="#FF009688" Click="bHome_Click"/>
+        <TextBox x:Name="tbNomSession" HorizontalAlignment="Left" Height="24" Margin="298,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbFormation" HorizontalAlignment="Left" Margin="298,388,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="298,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Nom "/><Run Text="s"/><Run Text="ession"/></TextBlock>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="298,276,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dateSession" HorizontalAlignment="Left" Margin="298,312,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="298,358,0,0" TextWrapping="Wrap" Text="Formation" VerticalAlignment="Top" RenderTransformOrigin="0.161,1.253"/>
+        <Button x:Name="bNouvelleSession" Content="Valider" HorizontalAlignment="Left" Margin="331,441,0,0" VerticalAlignment="Top" Width="75" Click="bNouvelleSession_Click"/>
+        <Button x:Name="button" Content="Actualiser" HorizontalAlignment="Left" Margin="462,388,0,0" VerticalAlignment="Top" Width="79" FontSize="10.667" Height="26" Click="button_Click"/>
+        <Button x:Name="bPrecedent" Content="Précédent" HorizontalAlignment="Left" Margin="50,52,0,0" VerticalAlignment="Top" Width="130" Click="bPrecedent_Click"/>
+        <Label x:Name="lErreur" Content="" HorizontalAlignment="Left" Margin="285,500,0,0" VerticalAlignment="Top" Width="174" Foreground="#DDFF0000"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="298,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Nombre maximum d'employé:"/>
+        <TextBox x:Name="tbNombreMaxEmploye" HorizontalAlignment="Left" Height="24" Margin="298,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Rectangle Fill="#FF2196F3" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="26"/>
+
+    </Grid>
+</Page>

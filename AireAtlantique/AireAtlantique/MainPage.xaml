@@ -5,13 +5,14 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AireAtlantique"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="551.434"
+      d:DesignHeight="700" d:DesignWidth="1050"
       Title="MainPage">
 
-    <Grid Background="#FFAFBDC4" >
-        <Button x:Name="bAddFormation" Content="Ajouter une formation" HorizontalAlignment="Left" Height="238" Margin="10,36,0,0" VerticalAlignment="Top" Width="146" BorderBrush="{x:Null}" Foreground="White" Background="#FF284395"/>
-        <Button x:Name="bAddSession" Content="Ajouter une session" HorizontalAlignment="Left" Height="238" Margin="196,36,0,0" VerticalAlignment="Top" Width="140" Background="#FFE8562E" BorderBrush="{x:Null}" Foreground="White" Click="bAddSession_Click"/>
-        <Button x:Name="bAddPersonne" Content="Ajouter une personne" HorizontalAlignment="Left" Height="238" Margin="366,36,0,0" VerticalAlignment="Top" Width="141" Foreground="White" Background="#FF4CAF4F" BorderBrush="{x:Null}" Click="bAddPersonne_Click"/>
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
+        <Button x:Name="bAddFormation" Content="Formation" HorizontalAlignment="Left" Height="130" Margin="229,271,0,0" VerticalAlignment="Top" Width="130" BorderBrush="{x:Null}" Foreground="White" Background="#FFF44336" Click="bAddFormation_Click"/>
+        <Button x:Name="bAddSession" Content="Session" HorizontalAlignment="Left" Height="130" Margin="461,271,0,0" VerticalAlignment="Top" Width="130" Background="#FF2196F3" BorderBrush="{x:Null}" Foreground="White" Click="bAddSession_Click"/>
+        <Button x:Name="bEmployer" Content="Employé" HorizontalAlignment="Left" Height="130" Margin="699,271,0,0" VerticalAlignment="Top" Width="130" Foreground="White" Background="#FF4CAF50" BorderBrush="{x:Null}" Click="bEmployer_Click"/>
+        <Button x:Name="bParametre" Content="Ajouter un métier" HorizontalAlignment="Left" Margin="871,10,0,0" VerticalAlignment="Top" Width="169" Click="bParametre_Click"/>
 
     </Grid>
 </Page>

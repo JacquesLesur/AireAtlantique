@@ -10,7 +10,7 @@ namespace AireAtlantique
     class Formation
     {
         [Key]
-        public int ID { get; set; }
+        public int IDFormation { get; set; }
 
 
         [Required]
@@ -19,16 +19,16 @@ namespace AireAtlantique
 
 
         [Required]
-        [StringLength(500)]
-        public List<Employe> employe { get; set; }
-
-        [Required]
         [StringLength(200)]
         public string Description { get; set; }
 
         [Required]
         public int Validité { get; set; }
 
+        [Required]
+        public Boolean Obligatoire { get; set; }
+
+        public virtual ICollection<Metier> listMetier { get; set; }
     }
 }
 

@@ -1,0 +1,66 @@
+﻿<Page x:Class="AireAtlantique.AjouterEmployeSession"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AireAtlantique"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050"
+      Title="AjouterEmployeSession">
+
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
+        <ListBox x:Name="lbEmploye" HorizontalAlignment="Left" Height="503" Margin="756,101,0,0" VerticalAlignment="Top" Width="248" Background="#FFBFBDBD" SelectionMode="Multiple">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+                        <TextBlock Text=" " />
+                        <TextBlock Text="{Binding Prenom}" FontWeight="Bold" />
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <ComboBox x:Name="cbSession" HorizontalAlignment="Left" Margin="150,215,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="SelectionNewSession">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button x:Name="bActualiserSession" Content="Actualiser" HorizontalAlignment="Left" Margin="41,211,0,0" VerticalAlignment="Top" Width="90" FontSize="10.667" Height="32" Click="bActualiserSessionClick"/>
+        <Button x:Name="button1" Content="Menu" HorizontalAlignment="Left" Margin="56,10,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click" Background="#FF009688"/>
+        <Button x:Name="bAjouter" Content="Ajouter" HorizontalAlignment="Left" Margin="842,617,0,0" VerticalAlignment="Top" Width="75" Click="bAjouter_Click"/>
+        <ListBox x:Name="lbEmployeSession" HorizontalAlignment="Left" Height="314" Margin="79,281,0,0" VerticalAlignment="Top" Width="223" Background="#FFBFBDBD" SelectionChanged="clicEmployeSession">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+                        <TextBlock Text=" " />
+                        <TextBlock Text="{Binding Prenom}" FontWeight="Bold" />
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="bPrecedent" Content="Précédent" HorizontalAlignment="Left" Margin="31,47,0,0" VerticalAlignment="Top" Width="130" Click="bPrecedent_Click"/>
+        <Label x:Name="lAttention" Content="" HorizontalAlignment="Left" Margin="257,623,0,0" VerticalAlignment="Top" Width="332"/>
+        <Label x:Name="lNom" Content="" HorizontalAlignment="Left" Margin="337,290,0,0" VerticalAlignment="Top" Width="243"/>
+        <Label x:Name="lPrenom" Content="" HorizontalAlignment="Left" Margin="337,339,0,0" VerticalAlignment="Top" Width="243"/>
+        <Label x:Name="lNumTelephone" Content="" HorizontalAlignment="Left" Margin="337,407,0,0" VerticalAlignment="Top" Width="243"/>
+        <Label x:Name="lMetier" Content="" HorizontalAlignment="Left" Margin="337,516,0,0" VerticalAlignment="Top" Width="243"/>
+        <DatePicker x:Name="dpDateNaissance" HorizontalAlignment="Left" Margin="365,471,0,0" VerticalAlignment="Top" Width="173"/>
+        <Rectangle Fill="#FF2196F3" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="26"/>
+        <TextBlock HorizontalAlignment="Left" Margin="79,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Text="Participan"/><Run Text="t"/><Run Text=" à la session:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="337,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="Caractéristiques de l'employé:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="680,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="339"><Run Text="Employé"/><Run Text="s"/><Run Text=" correspondant"/><Run Text="s"/><Run Text=" aux métiers"/><Run Text=":"/></TextBlock>
+
+    </Grid>
+</Page>

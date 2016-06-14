@@ -10,7 +10,7 @@ namespace AireAtlantique
     class Employe
     {
         [Key]
-        public int ID { get; set; }
+        public int IDEmploye { get; set; }
 
         [Required]
         [StringLength(50)]
@@ -20,5 +20,15 @@ namespace AireAtlantique
         [StringLength(50)]
         public string Prenom { get; set; }
 
+        [Required]
+        public int numeroTelephone { get; set; }
+
+        [Required]
+        public DateTime dateNaissance { get; set; }
+
+
+        public virtual Metier Metier { get; set; }
+
+        public virtual ICollection<Session> listeSession { get; set; }
     }
 }

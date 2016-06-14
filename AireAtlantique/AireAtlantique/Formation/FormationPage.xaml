@@ -1,0 +1,69 @@
+﻿<Page x:Class="AireAtlantique.FormationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AireAtlantique"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050"
+      Title="Formation">
+
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
+        <Button x:Name="bAddFormation" Content="Créer une nouvelle formation" HorizontalAlignment="Left" Height="33" Margin="38,56,0,0" VerticalAlignment="Top" Width="234" BorderBrush="{x:Null}" Foreground="White" Background="#FF009688" Click="bAddFormation_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.438"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.004"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <ListBox x:Name="lbFormation" HorizontalAlignment="Left" Height="361" Margin="188,200,0,0" VerticalAlignment="Top" Width="173" Background="#FFBFBDBD" SelectionChanged="selectionFormation">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="188,158,0,0" TextWrapping="Wrap" Text="Les Formations:" VerticalAlignment="Top" FontSize="20"/>
+        <Button x:Name="bActualiser" Content="Actualiser" HorizontalAlignment="Left" Margin="151,566,0,0" VerticalAlignment="Top" Width="96" Height="30" Click="bActualiser_Click"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="622,161,0,0" TextWrapping="Wrap" Text="Nom:" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="622,200,0,0" TextWrapping="Wrap" Text="Description:" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="783,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run Text="Session"/><Run Text=":"/></TextBlock>
+        <TextBlock x:Name="tbNom" HorizontalAlignment="Left" Margin="734,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" FontSize="16"/>
+        <TextBlock x:Name="tbDescription" HorizontalAlignment="Left" Margin="734,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="49" FontSize="16"/>
+        <ListBox x:Name="lbSessionFormation" HorizontalAlignment="Left" Height="228" Margin="783,314,0,0" VerticalAlignment="Top" Width="168" Background="#FFBFBDBD">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <ListBox x:Name="lbMetier" HorizontalAlignment="Left" Height="228" Margin="617,314,0,0" VerticalAlignment="Top" Width="144" Background="#FFBFBDBD">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="617,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Text="Métiers:"/>
+        <Button x:Name="bSupprimer" Content="Supprimer" HorizontalAlignment="Left" Margin="271,566,0,0" VerticalAlignment="Top" Width="119" Click="bSupprimer_Click" Background="#FFE01F1F"/>
+        <Button x:Name="bPrecedent" Content="Précédent" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Width="130" Click="bPrecedent_Click"/>
+        <Rectangle Fill="#FFF44336" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="26"/>
+
+    </Grid>
+</Page>

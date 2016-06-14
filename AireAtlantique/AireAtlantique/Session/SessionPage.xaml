@@ -1,0 +1,62 @@
+﻿<Page x:Class="AireAtlantique.SessionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AireAtlantique"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1050"
+      Title="SessionPage">
+
+    <Grid Background="#EFEFEF" Height="700" Width="1050">
+        <Button x:Name="bAddSession" Content="Créer une nouvelle session" HorizontalAlignment="Left" Height="43" Margin="26,134,0,0" VerticalAlignment="Top" Width="334" Background="#FF009688" BorderBrush="{x:Null}" Foreground="White" Click="bAddSession_Click"/>
+        <Button x:Name="button" Content="Ajouter un employé à une Session" HorizontalAlignment="Left" Margin="26,74,0,0" VerticalAlignment="Top" Width="334" Height="45" Click="button_Click" Background="#FF009688"/>
+        <ListBox x:Name="lbSession" HorizontalAlignment="Left" Height="338" Margin="110,268,0,0" VerticalAlignment="Top" Width="182" Background="#FFBFBDBD" SelectionChanged="SelectionItem">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Left" Margin="152,236,0,0" TextWrapping="Wrap" Text="Sessions:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="401,32,0,0" TextWrapping="Wrap" Text="Nom:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="401,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="Formation:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="401,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Text="Nombre de "/><LineBreak/><Run Text="participant Maximum:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="457,236,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="Participant:"/>
+        <TextBlock x:Name="tbNom" HorizontalAlignment="Left" Margin="625,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" FontSize="20"/>
+        <TextBlock x:Name="tbParticipantMax" HorizontalAlignment="Left" Margin="625,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" FontSize="20"/>
+        <TextBlock x:Name="tbFormation" HorizontalAlignment="Left" Margin="625,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" FontSize="20"/>
+        <ListBox x:Name="lbEmploye" HorizontalAlignment="Left" Height="338" Margin="397,268,0,0" VerticalAlignment="Top" Width="224" Background="#FFBFBDBD" SelectionChanged="clicSurEmploye">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+
+                        <TextBlock Text="{Binding Nom}" FontWeight="Bold" />
+                        <TextBlock Text=" " />
+                        <TextBlock Text="{Binding Prenom}" FontWeight="Bold" />
+
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="bActualiserSessions" Content="Actualiser." HorizontalAlignment="Left" Margin="98,611,0,0" VerticalAlignment="Top" Width="94" Click="bActualiserSessions_Click"/>
+        <Button x:Name="bSupprimerSession" Content="Supprimer" HorizontalAlignment="Left" Margin="202,611,0,0" VerticalAlignment="Top" Width="100" Click="bSupprimerSession_Click" Background="#FFE01F1F"/>
+        <Button x:Name="bSupprimmerParticipantSession" Content="Supprimer" HorizontalAlignment="Left" Margin="386,624,0,0" VerticalAlignment="Top" Width="114" Click="bSupprimmerParticipantSession_Click" Visibility="Hidden"/>
+        <Button x:Name="bPrecedent" Content="Précédent" HorizontalAlignment="Left" Margin="33,19,0,0" VerticalAlignment="Top" Width="130" Click="bPrecedent_Click"/>
+
+        <Rectangle Fill="WhiteSmoke" HorizontalAlignment="Left" Height="338" Margin="626,268,0,0" VerticalAlignment="Top" Width="334"/>
+        <Label x:Name="lNom" Content="" HorizontalAlignment="Left" Margin="635,268,0,0" VerticalAlignment="Top" Width="294"/>
+        <Label x:Name="lPrenom" Content="" HorizontalAlignment="Left" Margin="635,318,0,0" VerticalAlignment="Top" Width="294"/>
+        <Label x:Name="lNumTelephone" Content="" HorizontalAlignment="Left" Margin="635,361,0,0" VerticalAlignment="Top" Width="294"/>
+        <Label x:Name="lMetier" Content="" HorizontalAlignment="Left" Margin="635,474,0,0" VerticalAlignment="Top" Width="294"/>
+        <DatePicker x:Name="dpDateNaissance" HorizontalAlignment="Left" Margin="659,410,0,0" VerticalAlignment="Top" Width="235"/>
+        <Rectangle Fill="#FF2196F3" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="26"/>
+        <TextBlock HorizontalAlignment="Left" Margin="659,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="Caractéristiques de l'employé:"/>
+
+    </Grid>
+</Page>

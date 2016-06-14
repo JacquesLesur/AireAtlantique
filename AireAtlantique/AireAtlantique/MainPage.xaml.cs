@@ -23,24 +23,32 @@ namespace AireAtlantique
         public MainPage()
         {
             InitializeComponent();
-            bAddFormation.Click += new System.Windows.RoutedEventHandler(this.Formation);
+            
+
         }
-        public void Formation(object sender, RoutedEventArgs e)
-        {
-            // Switcher.home.Hide();
-            // Switcher.ajouterFormation.Show();
-            Switcher.mainWin.Content = Switcher.ajouterFormation;
-        }
+
         private void bAddSession_Click(object sender, RoutedEventArgs e)
         {
-            //Switcher.home.Hide();
 
-            Switcher.mainWin.Content = Switcher.ajouterSession;
+
+            Switcher.mainWin.Content = Switcher.Session;
         }
 
-        private void bAddPersonne_Click(object sender, RoutedEventArgs e)
+        private void bEmployer_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.mainWin.Content = Switcher.ajouterEmployer;
+            
+            Switcher.mainWin.Content = Switcher.Employer;
+        }
+
+        private void bAddFormation_Click(object sender, RoutedEventArgs e)
+        {
+            
+            Switcher.mainWin.Content = Switcher.Formation;
+        }
+
+        private void bParametre_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.mainWin.Content = Switcher.Parametre;
         }
     }
 }

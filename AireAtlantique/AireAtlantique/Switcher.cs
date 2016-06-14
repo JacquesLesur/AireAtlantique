@@ -17,11 +17,15 @@ namespace AireAtlantique
     public static class Switcher
     {
         public static Page mainPage;
+        public static Page Parametre;
+        public static Page Formation;
         public static Page ajouterFormation;
+        public static Page Session;
         public static Page ajouterSession;
+        public static Page ajouterEmployeSession;
+        public static Page Employer;
         public static Page ajouterEmployer;
         public static MainWindow mainWin;
-
 
     }
 }

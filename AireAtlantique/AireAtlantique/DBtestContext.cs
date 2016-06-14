@@ -22,5 +22,7 @@ namespace AireAtlantique
 
         public virtual DbSet<Formation> Formations { get; set; }
 
+        public virtual DbSet<Metier> Metier { get; set; }
+
     }
 }

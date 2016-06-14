@@ -10,18 +10,23 @@ namespace AireAtlantique
     class Session
     {
         [Key]
-        public int ID { get; set; }
+        public int IDSession { get; set; }
 
 
         [Required]
         [StringLength(50)]
         public string Nom { get; set; }
 
-        [Required]
-        public List<Employe> listeEmploye { get; set; }
+        
+        public int NombreMaxEmploye { get; set; }
+
+        public virtual ICollection<Employe> listeEmploye { get; set; }
 
         [Required]
         public DateTime DateSession { get; set; }
+
+        [Required]
+        public virtual Formation Formation { get; set; }
 
 
     }
